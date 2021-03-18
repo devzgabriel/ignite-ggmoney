@@ -3,7 +3,7 @@ import styled from 'styled-components'
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'></header>
+      <h1 className='App-header'>Hello</h1>
     </div>
   )
 }
