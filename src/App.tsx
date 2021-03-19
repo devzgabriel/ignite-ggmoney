@@ -1,10 +1,14 @@
-import styled from 'styled-components'
+import { Dashboard } from './components/Dashboard'
+import { Header } from './components/Header'
+import { GlobalStyle } from './styles/global'
 
 function App() {
   return (
-    <div className='App'>
-      <h1 className='App-header'>Hello</h1>
-    </div>
+    <>
+      <Header />
+      <Dashboard />
+      <GlobalStyle />
+    </>
   )
 }
 
