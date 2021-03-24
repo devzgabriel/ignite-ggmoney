@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  margin-top: -8rem;
+  margin-top: -10rem;
 
   div {
     background: var(--shape);
@@ -21,7 +21,7 @@ export const Container = styled.div`
     strong {
       display: block;
       margin-top: 1rem;
-      font-size: 3rem;
+      font-size: 2rem;
       font-weight: 500;
       line-height: 3rem;
     }
